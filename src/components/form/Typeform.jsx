@@ -1,6 +1,7 @@
 import Button from "./button/button"
 
 function Typeform({handleSubmit, authorState, wordState, definitionState, exampleState, resetValue}) {
+
   return (
     <form className="typeform" onSubmit={e => handleSubmit({e})}>
       <div className="dictionary-form">
